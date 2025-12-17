@@ -6,9 +6,11 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
+import jakarta.persistence.Table;
 import jakarta.validation.constraints.*;
 
 @Entity
+@Table(name="Student")
 public class NewFileEntity{
     @Id
     @GeneratedValue(stratergy = GenerationType.IDENTITY)
