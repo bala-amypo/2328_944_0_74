@@ -2,12 +2,13 @@ package com.example.demo.newentity;
 
 import java.util.*;
 
+import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.validation.constraints.*;
 
-
+@Entity
 public class NewFileEntity{
     @Id
     @GeneratedValue(stratergy = GenerationType.IDENTITY)
