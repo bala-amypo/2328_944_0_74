@@ -16,7 +16,7 @@ import com.example.project.entity.Studententity;
 import com.example.project.service.Studentservice;
 
 @RestController
-public class  Studentcontroller {
+public class  StudentController {
     @Autowired
     Studentservice src;
     
