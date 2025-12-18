@@ -7,7 +7,7 @@ import java.util.Map;
 
 import org.springframework.stereotype.Service;
 
-import com.example.project.entity.Studententity;
+import com.example.demo.entity.Studententity;
 
 @Service
 public class Studentservice {
