@@ -11,7 +11,7 @@ import com.example.project.entity.Studententity;
 
 @Service
 public class Studentservice {
-    Map<Integer,com.example.project.entity.Studententity>mp=new HashMap<>();
+    Map<Integer,Studententity>mp=new HashMap<>();
        
   public Studententity savedata(Studententity st){
     mp.put(st.getId(), st);
