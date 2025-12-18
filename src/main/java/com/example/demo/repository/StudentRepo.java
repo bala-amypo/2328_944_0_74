@@ -1,8 +1,9 @@
-package com.example.demo.repository;
+package com.example.demo.newrepository;
 import org.springframework.stereotype.Repository;
 import org.springframework.data.jpa.repository.JpaRepository;
-import com.example.demo.entity.StudentEntity;
+import com.example.demo.newentity.NewfileEntity;
 @Repository
-public interface StudentRepo extends JpaRepository<StudentEntity,Long>{
+public interface NewfileRepo extends JpaRepository<NewfileEntity,Long>{
+    
 
 }
